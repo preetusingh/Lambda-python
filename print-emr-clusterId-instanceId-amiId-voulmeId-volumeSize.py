@@ -53,6 +53,6 @@ def lambda_handler(event, context):
         
         for item in tuples:
             print(str(item[0]) + ", " + str(item[1]) + ", " + str(item[2])+ "," + str(instance_test[item[2]]) + ", " + str(item[3]) + ", " + str(item[4]) + ", " + str(item[5]) + "," + str(volume_test[item[5]]))
-            #if 'cra' not in str(item[0]):
+            #if 'string1' not in str(item[0]):
                 #is_instances_id.append(str(item[2]))
         
